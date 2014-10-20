@@ -1,0 +1,49 @@
+void hola(void);
+string hola(string);
+real hola(int, real, string);
+
+main(){
+
+j as string;
+h as real;
+n as int;
+p as boolean;
+
+j:="cadena";
+h := 1.0;
+n := 8;
+p := True;
+p := False;
+
+if a<b then
+a := "hola";
+else
+b := "chau";
+endelse
+endif
+
+while a < b | a == b then
+a := 15;
+endwhile
+
+hola();
+a := hola(7,a, 3.2,"hola");
+
+a := a +3;
+c := a + b;
+
+}
+
+void hola(void){
+
+j as string;
+j:="nada"; 
+
+}
+
+real hola(a as int,b as real,c as string){
+
+b:=5.8448484848;
+retorno 2.3658;
+
+}
